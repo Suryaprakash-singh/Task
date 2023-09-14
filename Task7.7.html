@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task12</title>
+    <style>
+        .container
+        {
+            margin: 100px;
+            background-color:rgb(131, 16, 35);
+            padding-left: 90px;
+            padding-right: 90px;
+            width: 500px;
+            /* margin-top: 10px; */
+            padding-top: 20px;
+            padding-bottom:20px;
+            /* background-color: rgba(141, 43, 76, 0.779); */
+        }
+        .cocontainer
+        {
+            /* margin: 40px; */
+            padding: 50px;
+            /* background-color: rgba(138, 36, 53, 0.865);  */
+            background-color: rgb(141, 43, 76);
+            color: white;
+            font-size: larger;
+        }
+        #Name
+        {
+            margin-left: 80px;
+        }
+        #email
+        {
+            margin-left: 80px;
+        }
+        #password
+        {
+            margin-left: 55px;
+        }
+        #phone
+        {
+            margin-left: 20px;
+        }
+        #gender
+        {
+            margin-right: 66px;
+        }
+        #language
+        {
+            margin-left: 60px;
+            height: 30px;
+            background-color: rgba(255, 255, 255, 0.731);
+        }
+        #Zip
+        {
+            margin-left: 50px;
+        }
+        .ab
+        {
+            display: flex;
+            align-items: center;
+        }
+        #about
+        {
+            margin-left: 68px;
+        }
+        .button
+        {
+            width: 330px;
+            height: 45px;
+            border-radius: 4px;
+            font-weight: bolder;        
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cocontainer">
+            <label for="Name" class="hjk">Name:</label>
+            <input  type="text" placeholder="your name" id="Name"/> <br/><br/>
+            <label for="email" class="hjk">Email:</label>
+            <input  type="email" placeholder="your email" id="email"/> <br/><br/>
+            <label for="Password" class="hjk">Password:</label>
+            <input type="password" placeholder="" id="password"/> <br/><br/>
+            <label for="Phone" class="hjk">Phone Number:</label>
+            <input type="text" placeholder="" id="phone"/> <br/><br/>
+            <label for="Gender" class="hjk" id="gender">Gender:</label>
+            <label for="Male">Male:</label>
+            <input type="radio" id="Male"/>
+           
+            <label for="Female">Female:</label>
+            <input type="radio" id="Female"/>
+            <label for="other">Other:</label>
+            <input type="radio" id="other"/>
+            <br><br>
+            <label for="Language" class="hjk">language</label>
+            <select name="language" id="language">
+                <option value="Select_language ">Select language</option>
+            </select>
+            <br><br>
+            <label for="Zipcode" class="hjk">Zip Code:</label>
+            <input  type="text" placeholder="" id="Zip"/> <br/><br/>
+            <div class="ab">
+            <label for="About" class="hjk">About:</label>
+            <textarea name="About" id="about" cols="25" rows="3" placeholder="Write about yourself"></textarea>
+            </div>
+            <br><br>
+            <input type="button" class="button" value="Register">
+            <br/><br/>
+        </div>
+    </div>
+</body>
+</html>

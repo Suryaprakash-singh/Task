@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task11</title>
+    <style>
+        .container
+        {
+            margin: 120px;
+        }
+        .text
+        {
+            width: 500px;
+            height: 25px;
+        }
+        .password
+        {
+            width: 500px;
+            height: 25px;
+        }
+        .footer
+        {
+             margin-left: -25px; 
+            border: 0px solid grey;
+            background-color: rgba(128, 128, 128, 0.361);
+            width: 500px;
+            row-gap:89px;
+            margin-left: 1px;
+            height: 52px;
+            /* padding-left: 0%; */
+        }
+        ul
+        {
+            display: flex;
+            align-items: center;
+        }
+        li
+        {
+            list-style-type: none;
+           
+        }
+        .btn1
+        {
+            width: 506px;
+            background-color: rgb(144, 238, 160);
+            height: 35px;
+            border: 0px solid green;
+            color: white;
+        }
+        .checkbox
+        {
+            /* background-color: blue; */
+            accent-color: blue;
+            
+        }
+        .btn2
+        {
+            margin-left: -40px;
+            height: 30px;
+            border: 0px solid red;
+            color: white;
+            /* border-collapse: collapse; */
+            border-radius:5px;
+            background-color: red;
+            width: 75px;
+            margin-bottom: 25px;
+            margin-top: 15px;
+        }
+        .i1
+        {
+            padding-left: 246px;
+        }
+        a{
+            color: black;
+        }
+        .im
+        {
+            margin-left: 90px;
+        }
+        .letter
+        {
+            font-weight: 900;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img  class="im" src="photo.png" alt="image">
+        <br><br>
+        <label for="Username"><span class="letter">Username</span></label><br>
+        <input class="text" type="text" placeholder="Enter Username"/><br><br>
+        <label for="Password"><span class="letter">Password</span></label><br>
+        <input class="password" type="password" placeholder="Enter Password"><br><br>
+      <input class="btn1" type="button" value="Login"><br><br>
+        <input class="checkbox" type="checkbox"> <label for="">Remember me</label>
+        <div class="footer">
+            <ul>
+                <li> <input class="btn2" type="button" value="Cancel"></li>
+                <li class="i1"> Forgot <a href="#">password?</a></li>
+            </ul>
+            
+            
+        </div>
+    </div>
+</body>
+</html>

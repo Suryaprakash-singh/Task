@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task7</title>
+    <style>
+        .nav
+        {
+            border: 1px solid black;
+            width: 30%;
+            height: 160px;
+           
+        }
+         .list
+        {
+            
+            width: 95%;
+            height: 95%;
+            /* margin: 3px; */
+            ;
+        } 
+        ul
+        {
+            list-style: none;
+            padding-top: 5px;
+            background-color: skyblue;
+            padding-left: 1px;
+            padding-bottom: 0px;
+            margin-top: 3px;
+            margin-left: 3px;
+            /* margin-bottom: 3cap */
+        }
+        /* ul:hover
+        {
+            background-color: orange;
+        } */
+        li{
+            padding-top: 5px;
+            width: 100%;
+            padding-bottom: 7px;
+            /* text-align: center; */
+
+        }
+        li:hover
+        {
+            background-color: orange;
+           /* text-decoration-color: green; */
+        }
+        /* a :hover 
+        {
+            background-color: orange;
+        } */
+        a{
+            text-decoration: none;
+            text-decoration-color: blue;
+           
+            padding: 15px;
+            /* padding-bottom:1px; */
+        }
+        a:hover
+        {
+            color: white;
+        }
+        .navb
+        {
+            border: 1px solid black;
+            width: 90%;
+            /* height: 160px; */
+           
+        }
+        .listt
+        {
+            display: flex;
+            /* text-align: center; */
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(128, 128, 128, 0.475);
+            margin-top:15px;
+        }
+        .lt{
+            padding-top: 5px;
+            width: 100%;
+            padding-bottom: 7px;
+            border-left: 1px solid blue;
+            /* text-align: center; */
+
+        }
+        .lt:hover
+        {
+            background-color:  rgba(0, 0, 0, 0.402);
+           /* text-decoration-color: green; */
+        }
+    </style>
+</head>
+<body>
+    <h3>Vertical navigation Bar</h3>
+    <nav class="nav">
+        <ul class="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Java</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">Bootstrap</a></li>
+        </ul>
+    </nav>
+    <h3>Horizontal navigation Bar</h3>
+    <nav class="navb">
+        <ul class="listt">
+            <li class="lt"><a href="#">Home</a></li>
+            <li class="lt"><a href="#">Java</a></li>
+            <li class="lt"><a href="#">HTML</a></li>
+            <li class="lt"><a href="#">CSS</a></li>
+            <li class="lt"><a href="#">Bootstrap</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
